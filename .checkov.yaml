@@ -1,0 +1,9 @@
+# Checkov Global Configuration
+framework:
+  - terraform
+
+# Enforce strict evaluation (fail pipeline on security errors)
+soft-fail: false
+
+# Optional: Output format
+output: cli
